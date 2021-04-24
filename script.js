@@ -16,7 +16,7 @@ const addNewNote = (text= '') => {
 	note.classList.add('note');
 
 const htmlData=`
-<div class="operation" align="right">
+<div class="operation">
 	<button class="edit" > <i class="fas fa-edit"></i></button>
 	<button class="delete"> <i class="fas fa-trash-alt"></i></button>
 </div>
